@@ -7,9 +7,6 @@ class Employee:
         self.last = last
         self.pay = pay
 
-    def hello():
-        return "Hello World"
-
     @property
     def email(self):
         return f"{self.first}.{self.last}@gmail.com"
