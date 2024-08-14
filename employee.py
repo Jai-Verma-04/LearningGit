@@ -8,7 +8,7 @@ class Employee:
         self.pay = pay
 
     def hello():
-        return "Hello"
+        return "Hello World"
 
     @property
     def email(self):
