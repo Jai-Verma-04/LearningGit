@@ -7,7 +7,6 @@ class Employee:
         self.last = last
         self.pay = pay
 
-    #Just a comment
     @property
     def email(self):
         return f"{self.first}.{self.last}@gmail.com"
